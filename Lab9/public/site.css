@@ -1,0 +1,75 @@
+html {
+    font-family: "Open Sans", sans-serif;
+    margin: auto;
+    font-size: 16pt;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+form {
+    margin: auto;
+    color: white;
+}
+
+p {
+    font-size: 16pt;
+    margin: auto;
+    color: white;
+}
+
+ul {
+    font-size: 1rem;
+    margin: 0 auto;
+    padding-left: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: orange;
+}
+
+input[type="text"] {
+    text-align: center;
+    color: black;
+    height: 32px;
+    width: 30%;
+    background-color: #A0A0A0;
+    border: none;
+}
+
+button{
+    background-color: green;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+}
+
+section.results {
+    margin: auto;
+    padding: 5px;
+}
+
+ul.attempts {
+    list-style-type: none;
+}
+
+.results ul {
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+li.is-palindrome {
+    background: #0000FF;
+    padding: 5px;
+}
+
+li.not-palindrome {
+    background: #FF0000;
+    padding: 5px;
+}

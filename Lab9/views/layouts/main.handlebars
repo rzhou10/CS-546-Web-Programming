@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/public/site.css">
+    <title>The Best Palindrome Checker in the World!</title>
+</head>
+<body>
+    <main class="container">
+        <h1>The Best Palindrome Checker in the World!</h1>
+        <section class="intro">
+            <h1>What is a palindrome?</h1>
+            <p>A palindrome is a word or phrase that reads the same when reversed</p>
+            <p>Examples include:</p>
+            <ul>
+                <li>Racecar</li>
+                <li>He did, eh?</li>
+                <li>Poor Dan is in a droop</li>
+            </ul>
+        </section>
+
+        <section class="user-input">
+            <form id="static-form">
+                <label for="text-to-test">Test:</label>
+                <br>
+                <div class="form-group hidden" id="error-container">
+                    <div class="alert alert-danger text-goes-here"></div>
+                </div>
+                <input type="text" id="text-to-test" name="phrase" autocomplete="off" value="{{palindomeText}}">
+                <br>
+                <button type="submit" class="btn btn-default">Check</button>
+            </form>
+        </section>
+
+        <section class="results">
+            <ul id="attempts" class="attempts"></ul>
+        </section>
+    </main>
+    <script src="/public/form.js"></script>
+    <footer>
+        <p>Renjie Zhou</p>
+        <p>10396229</p>
+        <p>Computer Engineering student at Stevens Institute of Technology</p>
+    </footer>
+</body>
+</html>

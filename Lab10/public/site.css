@@ -1,0 +1,53 @@
+html {
+    font-family: "Open Sans", sans-serif;
+    margin: auto;
+    font-size: 16pt;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+p {
+    font-size: 16pt;
+    margin: auto;
+    color: white;
+}
+
+input[type="text"] {
+    text-align: center;
+    color: black;
+    height: 32px;
+    width: 30%;
+    background-color: #A0A0A0;
+    border: none;
+}
+
+input[type="password"] {
+    text-align: center;
+    color: black;
+    height: 32px;
+    width: 30%;
+    background-color: #A0A0A0;
+    border: none;
+}
+
+button{
+    background-color: green;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+}
+
+.profiles {
+    background-color: brown;
+}
+
+label{
+    color: gold;
+}
